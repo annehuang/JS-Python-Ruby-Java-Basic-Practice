@@ -5,7 +5,7 @@ def divisors(start, end, n):
             counter += 1
               print(i, end=', ')
     print()
-    print('There are {} such integers.'.format(counter))
+    print('{}'.format(counter))
     print()
 
 newdivisor = input('Do you want to enter a range or a divisor? ')
