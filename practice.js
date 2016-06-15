@@ -1,1 +1,1 @@
-
+var trips = [{name:"Chicago"}]
