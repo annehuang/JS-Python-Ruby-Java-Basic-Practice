@@ -14,7 +14,7 @@ function countWords(str1){
 // returns the reverse string of string str1
 function reverse(str1){
   var rev = "";
-  for (var i = str1.length - 1; i > -1 ; i++)
+  for (var i = str1.length - 1; i > -1 ; i--) // decrement
     rev += str1[i];
   return rev;
 }
