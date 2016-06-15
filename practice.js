@@ -1,5 +1,7 @@
-var trips = [{name:"Chicago"}]
-
+var trips = [{name:"Chicago", season:"summer, activity1:"music festival", activity2:"bean"},
+              {name:"Hong Kong", season:"fall", activity1:"Ocean Park", activity2:"Disney"},
+              {name:"Philadelphia", season:"spring", activity1:"go to school", activity2:"ride the train"}
+];
 
 // retuns the count of number of words in string str1
 function countWords(str1){
