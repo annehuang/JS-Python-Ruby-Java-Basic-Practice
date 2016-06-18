@@ -24,7 +24,7 @@ var tripNo1 = new trip("Chicago", "summer", "music festival", "bean");
 
 // retuns the count of number of words in string str1
 function countWords(str1){
-  var count = 0;
+  var count = 1;
   for (var i = 1; i < str1.length; i++){
       if (str1[i] === " ")
         count++;
