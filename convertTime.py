@@ -13,3 +13,5 @@ def convertTime(time):
 	if hour < 10:
 		hour = “0” + str(hour)
 	print(str(hour) + “:” + min + “:” + sec)
+
+convertTime(time)
