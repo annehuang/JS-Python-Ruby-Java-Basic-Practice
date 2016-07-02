@@ -7,9 +7,9 @@ while nextterm < 4000000
 	nextterm = current + nextterm
 	current = temp
 
-	if nextterm % 2 == 0
+	if nextterm % 2 == 0 # if the next term is an even number
 		sum += nextterm
 	end
 end
 
-puts sum
+puts sum # print the sum of all the positive fibonacci numbers under 4000000
