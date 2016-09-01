@@ -1,3 +1,5 @@
+// Anne Huang
+// some basic practice with I/O in C
 // a simple program to read a file into memory and print it out to stdout
 
 #include <stdio.h>
