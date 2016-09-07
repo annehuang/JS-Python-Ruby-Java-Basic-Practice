@@ -4,6 +4,8 @@ import java.math.BigInteger;
 
 public class BI {
 	
+	// practice with byte type and BigInteger class
+	
 	// pass in the string-representation of a 128-bit integer in hexadecimal
 	// output: turns this string into a BigInteger
 	// then turns this BigInteger into a byte array of size 17
