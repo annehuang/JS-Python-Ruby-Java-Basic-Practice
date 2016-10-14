@@ -4,8 +4,6 @@ infile = open('output', 'r')
 
 outfile = open('parsed', 'w')
 
-lst = []
-
 for line in infile:
     l = line.split("word ")
     for i in range(0, len(l)):
