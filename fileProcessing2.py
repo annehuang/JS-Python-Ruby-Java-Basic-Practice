@@ -1,6 +1,6 @@
 # for parsing
 
-infile = open('output values q2', 'r')
+infile = open('output', 'r')
 
 outfile = open('parsed', 'w')
 
