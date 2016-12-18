@@ -1,5 +1,10 @@
 from binascii import unhexlify      
+
+# unhexilify takes a hex string and converts it into a large int
+
 a = unhexlify('1234')
+
+# I am writing the value back into a binary
 infile = open('new1.bin', 'wb')
 infile.write(a)
 infile.close()
