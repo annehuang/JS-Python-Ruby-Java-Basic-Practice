@@ -1,3 +1,6 @@
+# This is my solution to a Project Euler puzzle.
+# I enjoy math puzzles.
+
 sum = 2
 current = 1
 nextterm = 2
