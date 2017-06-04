@@ -2,7 +2,7 @@ package bi;
 
 import java.math.BigInteger;
 
-public class BI {
+public class BIDemo {
 	
 	// practice with byte type and BigInteger class
 	
@@ -15,6 +15,11 @@ public class BI {
 		byte[] arr = num.toByteArray();
 		System.out.println(arr);
 		System.out.println(arr.length);
+		
+		
+		BigInteger n = new BigInteger("10000000000", 2);
+		// reference: www.geeksforgeeks.org/biginteger-class-in-java
+		int N = n.intValue();
 	}
 	
 }
